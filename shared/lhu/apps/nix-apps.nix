@@ -5,13 +5,18 @@
     protonvpn-gui
     geteduroam
     nomacs
-    celluloid
     onlyoffice-desktopeditors
-    discord
     zoom-us
     blender
     godot
     prismlauncher
     openmw
   ];
+
+  programs.discord.enable = true;
+  programs.foliate.enable = true;
+  programs.mpv = {
+    enable = true;
+    package = pkgs.mpv-unwrapped.wrapper { mpv = pkgs.mpv-unwrapped.override { vapoursynthSupport = true; }; youtubeSupport = true; };
+  };
 }
