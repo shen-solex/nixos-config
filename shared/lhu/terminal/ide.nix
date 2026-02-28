@@ -42,6 +42,7 @@
 
   programs.yazi = {
     enable = true;
+    enableFishIntegration = true;
   };
 
   programs.zellij = {
@@ -60,4 +61,10 @@
   };
   
   home.sessionPath = [ "$HOME/.config/zide/bin" ];
+
+  programs.direnv = {
+    enable = true;
+    nix-direnv.enable = true;
+    enableFishIntegration = true;
+  };
 }
