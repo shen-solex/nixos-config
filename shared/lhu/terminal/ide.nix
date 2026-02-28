@@ -45,23 +45,6 @@
     enableFishIntegration = true;
   };
 
-  programs.zellij = {
-    enable = true;
-    settings = {
-      default_shell = "fish";
-    };
-  };
-
-  xdg.configFile."zide" = {
-    source = builtins.fetchGit {
-      url = "ssh://git@github.com/shen-solex/zide.git";
-      rev = "1e71f7895d85cb1592c0e4cb5e203f346ecf0a0a";
-    };
-    recursive = true;
-  };
-  
-  home.sessionPath = [ "$HOME/.config/zide/bin" ];
-
   programs.direnv = {
     enable = true;
     nix-direnv.enable = true;
