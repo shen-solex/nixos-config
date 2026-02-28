@@ -26,4 +26,9 @@
   };
 
   services.polkit-gnome.enable = true;
+
+  home.packages = with pkgs; [
+    grim
+    slurp
+  ];
 }
