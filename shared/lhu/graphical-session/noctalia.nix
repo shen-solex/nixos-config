@@ -659,6 +659,14 @@
       plugins = {
         autoUpdate = false;
       };
+      idle = {
+        enabled = true;
+        screenOffTimeout = 600;
+        lockTimeout = 630;
+        suspendTimeout = 660;
+        fadeDuration = 5;
+        customCommands = [];
+      };
       desktopWidgets = {
         enabled = true;
         gridSnap = true;
@@ -699,6 +707,10 @@
       ];
       states = {
         mangowc-layout-switcher = {
+          enabled = true;
+          sourceUrl = "https://github.com/noctalia-dev/noctalia-plugins";
+        };
+        clipper = {
           enabled = true;
           sourceUrl = "https://github.com/noctalia-dev/noctalia-plugins";
         };
