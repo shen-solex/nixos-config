@@ -43,4 +43,20 @@
   programs.yazi = {
     enable = true;
   };
+
+  programs.zellij = {
+    enable = true;
+    settings = {
+      default_shell = "fish";
+    };
+  };
+
+  xdg.configFile."zide" = {
+    source = builtins.fetchGit {
+      url = "https://github.com/josephschmitt/zide.git";
+    };
+    recursive = true;
+  };
+  
+  home.sessionPath = [ "$HOME/.config/zide/bin" ];
 }
