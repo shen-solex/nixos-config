@@ -411,7 +411,9 @@
         "nixpkgs": [
           "nixpkgs"
         ],
-        "noctalia-qs": "noctalia-qs"
+        "noctalia-qs": [
+          "noctalia-qs"
+        ]
       },
       "locked": {
         "lastModified": 1772295408,
@@ -430,7 +432,6 @@
     "noctalia-qs": {
       "inputs": {
         "nixpkgs": [
-          "noctalia",
           "nixpkgs"
         ]
       },
@@ -482,6 +483,7 @@
         "nix-flatpak": "nix-flatpak",
         "nixpkgs": "nixpkgs_2",
         "noctalia": "noctalia",
+        "noctalia-qs": "noctalia-qs",
         "sops-nix": "sops-nix",
         "spicetify-nix": "spicetify-nix",
         "stylix": "stylix",
