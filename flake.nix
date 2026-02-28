@@ -13,7 +13,7 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
     secrets = {
-      url = "git+ssh://git@github.com:shen-solex/secrets?shallow=1";
+      url = "git+ssh://git@github.com/shen-solex/secrets.git?shallow=1";
       flake = false;
     };
     stylix = {
