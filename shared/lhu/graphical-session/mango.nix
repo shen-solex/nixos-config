@@ -31,4 +31,12 @@
     grim
     slurp
   ];
+
+  programs.swappy = {
+    enable = true;
+    settings = {
+      save_dir="$HOME/Pictures";
+      save_filename_format="Screenshot-%Y%m%d-%H%M%S.png";
+    };
+  };
 }
