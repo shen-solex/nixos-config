@@ -53,7 +53,8 @@
 
   xdg.configFile."zide" = {
     source = builtins.fetchGit {
-      url = "https://github.com/josephschmitt/zide.git";
+      url = "ssh://git@github.com/shen-solex/zide.git";
+      rev = "1e71f7895d85cb1592c0e4cb5e203f346ecf0a0a";
     };
     recursive = true;
   };
