@@ -5,6 +5,7 @@
     ./nix-settings.nix
     ./environment.nix
     ./networking.nix
+    ./security.nix
     ./packages.nix
     ./printing.nix
     ./style.nix
