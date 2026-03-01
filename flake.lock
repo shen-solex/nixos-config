@@ -108,11 +108,11 @@
       },
       "locked": {
         "dir": "pkgs/firefox-addons",
-        "lastModified": 1772264066,
-        "narHash": "sha256-8Gv8BWVwp4GG7shbtaI1DqmkSXQ4oWDgjSCx162EqKI=",
+        "lastModified": 1772337777,
+        "narHash": "sha256-aKPPI+GeLwlIcCX5OJtlpIXwgDWZmBvU9TBfZPBqL+M=",
         "owner": "rycee",
         "repo": "nur-expressions",
-        "rev": "fa97bd7dda6cd2552bf67a7481b882a4701434d6",
+        "rev": "cc76430124a2ba2634f1517d3a0cde8d28f83c3a",
         "type": "gitlab"
       },
       "original": {
@@ -276,11 +276,11 @@
         "scenefx": "scenefx"
       },
       "locked": {
-        "lastModified": 1772293017,
-        "narHash": "sha256-MwkaFghaoT1KjyQn0MYjI1NpiCntCNsCdLuhrGxZ3LQ=",
+        "lastModified": 1772337777,
+        "narHash": "sha256-kZF47c8eVlAWkUDzAcH7d+6Cks+YdhQDH1A0X0v7DBo=",
         "owner": "DreamMaoMao",
         "repo": "mango",
-        "rev": "94380a3e0724597247199a1f32e19f2cda4c0b42",
+        "rev": "243848f43e96e0e6c79210e014219b25c6d35e86",
         "type": "github"
       },
       "original": {
@@ -416,11 +416,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1772295408,
-        "narHash": "sha256-uu7OH5KuWHCEURPbyTQzaRkGrJ4wXcpjb0Bk7jd5tP8=",
+        "lastModified": 1772319635,
+        "narHash": "sha256-ZVrtz08Fyp6knPEAbcD2+OYvs0T4pTII/xMElHpi31M=",
         "owner": "noctalia-dev",
         "repo": "noctalia-shell",
-        "rev": "3bc578526fcafc8bc9db936de62c331cb882843f",
+        "rev": "5d03c56f4c8d7243e6ae97c045afa44aaac2bf0e",
         "type": "github"
       },
       "original": {
@@ -484,6 +484,7 @@
         "nixpkgs": "nixpkgs_2",
         "noctalia": "noctalia",
         "noctalia-qs": "noctalia-qs",
+        "secrets": "secrets",
         "sops-nix": "sops-nix",
         "spicetify-nix": "spicetify-nix",
         "stylix": "stylix",
@@ -511,6 +512,23 @@
         "type": "github"
       }
     },
+    "secrets": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1771977486,
+        "narHash": "sha256-tnYs7dljWvKyDVZ+r1g/Vs9FFOpqm8EdipvgdcDyqfM=",
+        "ref": "refs/heads/master",
+        "rev": "b1c395fe726c783590923506733ff7bba07b4f0b",
+        "shallow": true,
+        "type": "git",
+        "url": "ssh://git@github.com/shen-solex/secrets.git"
+      },
+      "original": {
+        "shallow": true,
+        "type": "git",
+        "url": "ssh://git@github.com/shen-solex/secrets.git"
+      }
+    },
     "sops-nix": {
       "inputs": {
         "nixpkgs": [
@@ -518,11 +536,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1772048434,
-        "narHash": "sha256-/wA0OaH6kZ/pFA+nXR/tvg5oupOmEDmMS5us79JT60o=",
+        "lastModified": 1772340640,
+        "narHash": "sha256-1nq7+Kt5IUBD8Hu3nptVPbMf+22rNJoHT0t9L1X+GKA=",
         "owner": "Mic92",
         "repo": "sops-nix",
-        "rev": "334daa7c273dd8bf7a0cd370e4e16022b64e55e9",
+        "rev": "dec4d8eac700dcd2fe3c020857d3ee220ec147f1",
         "type": "github"
       },
       "original": {
@@ -706,11 +724,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1772306482,
-        "narHash": "sha256-092P58kRKiLBn0eg4eI67frffMkKiDhOa1ZOREmMeB4=",
+        "lastModified": 1772332855,
+        "narHash": "sha256-LPNnG/TXua9dSal3Ka+Rj0s34gbkJ4/AhxWBzn87j0E=",
         "owner": "0xc000022070",
         "repo": "zen-browser-flake",
-        "rev": "2e593ac6926cbf44adc8c9ef785da024812d2467",
+        "rev": "04e0729057ea01c3336f4751290a20f4ec564727",
         "type": "github"
       },
       "original": {
