@@ -74,17 +74,17 @@
       };
       lazygit = {
         enable = true;
-        lazyLoad = {
-          settings = {
-            keys = [
-              {
-                key = "<leader>lg";
-                action = "LazyGit";
-                options.desc = "LazyGit";
-              }
-            ];
-          };
-        };
+        # lazyLoad = {
+        #   settings = {
+        #     keys = [
+        #       {
+        #         key = "<leader>lg";
+        #         action = "LazyGit";
+        #         options.desc = "LazyGit";
+        #       }
+        #     ];
+        #   };
+        # };
       };
       lsp-format.enable = true;
       none-ls = {
