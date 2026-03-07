@@ -12,7 +12,7 @@
       mini = {
         enable = true;
         autoLoad = true;
-        mockDevicons = true;
+        mockDevIcons = true;
         modules = {
           basics = {
             
