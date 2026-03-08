@@ -18,6 +18,7 @@ in
       lhu_passwd = {
         neededForUsers = true;
       };
+      syncthing_passwd = {};
     };
   };
 }

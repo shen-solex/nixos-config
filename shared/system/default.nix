@@ -11,6 +11,7 @@
     ./style.nix
     ./audio.nix
     ./graphical-session.nix
+    ./syncthing.nix
     ./file-management.nix
     ./steam.nix
   ];
