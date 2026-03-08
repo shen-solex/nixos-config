@@ -5,6 +5,7 @@
     enable = true;
     openDefaultPorts = true;
     user = "lhu";
+    dataDir = "/home/lhu";
     settings = {
       gui = {
         user = "lhu";
