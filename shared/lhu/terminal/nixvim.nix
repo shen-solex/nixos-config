@@ -117,7 +117,7 @@
         nixd.enable = true;
       };
     };
-    highlight = {
+    highlightOverride = {
       LineNr = {
         blend = 0;
         bg.__raw = "NONE";
