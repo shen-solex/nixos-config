@@ -9,6 +9,7 @@
     enable = true;
 
     plugins = {
+      lsp.enable = true;
       mini = {
         enable = true;
         autoLoad = true;
@@ -47,7 +48,7 @@
         enable = true;
         settings = {
           winbar = {
-            lualine_a = "navic";
+            lualine_a = [ "navic" ];
           };
         };
       };
@@ -107,9 +108,8 @@
     keymaps = [
       {
         key = "-";
-        action = "";
+        action = "Oil";
         options.desc = "Open parent directory";
-        options.mode = "n";
       }
     ];
     lsp = {
