@@ -117,5 +117,19 @@
         nixd.enable = true;
       };
     };
+    highlight = {
+      LineNr = {
+        blend = 0;
+        bg = "NONE";
+      };
+      SignColumn = {
+        blend = 0;
+        bg = "NONE";
+      };
+      FoldColumn = {
+        blend = 0;
+        bg = "NONE";
+      };
+    };
   };
 }
