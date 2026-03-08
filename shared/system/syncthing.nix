@@ -4,6 +4,7 @@
   services.syncthing = {
     enable = true;
     openDefaultPorts = true;
+    user = "lhu";
     settings = {
       gui = {
         user = "lhu";
