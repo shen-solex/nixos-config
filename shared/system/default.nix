@@ -2,6 +2,7 @@
 
 {
   imports = [
+    ./secrets.nix
     ./nix-settings.nix
     ./environment.nix
     ./networking.nix
