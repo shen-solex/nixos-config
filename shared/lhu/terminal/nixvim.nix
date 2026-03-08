@@ -120,15 +120,15 @@
     highlight = {
       LineNr = {
         blend = 0;
-        bg = "NONE";
+        bg.__raw = "NONE";
       };
       SignColumn = {
         blend = 0;
-        bg = "NONE";
+        bg.__raw = "NONE";
       };
       FoldColumn = {
         blend = 0;
-        bg = "NONE";
+        bg.__raw = "NONE";
       };
     };
   };
